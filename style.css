@@ -1,0 +1,68 @@
+/* 
+#canvas {
+	background:url("./желтый\ вариант.png");
+	background-size: cover;
+	width: 535px;
+	height: 438;
+	} */
+
+	body{
+		
+	}
+	.container {
+		position: relative;
+		height: 100vh;
+		cursor:  auto;
+		cursor:  url("./128909.png") url("custom.cur"), default;
+
+	}
+	/* img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: block;
+	} */
+	.hide{
+		display: none;
+	}
+	button{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	.images{
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		
+	}
+	
+	.nav {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	z-index: 4;
+			
+	}
+	.nav__item {
+		
+	}
+	.nav__item_rosu{
+		background-color: red;
+	}
+	.nav__item_galben{
+		background-color: rgb(255, 208, 0);
+	}
+	.nav__item_albastru{
+		background-color: rgb(5, 3, 144);
+	}
+	.nav__item_negru{
+		background-color: #000;
+	}
+	#redux{
+		
+	}

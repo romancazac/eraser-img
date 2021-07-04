@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eraser img</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <div class="container projects">
+        <img src="./желтый вариант.png" alt="" id="redux">
+        <img  data-filter="galben" src="./желтый вариант.png" alt="" class="galben project images">
+        <img  data-filter="negru" src="./черный вариант.png" alt="" class="negru project images">
+        <img  data-filter="rosu" src="./красный вариант.png" alt="" class="rosu project images">
+        <img  data-filter="sur" src="./синий вариант.png" alt="" class="sur project images">
+        <nav class="nav">
+            <button  onclick="reset(event);" data-filter="rosu" class="nav__item filter nav__item_rosu"></button>
+            <button  onclick="reset(event);" data-filter="sur" class="nav__item filter nav__item_albastru"></button>
+            <button  onclick="reset(event);" data-filter="negru" class="nav__item filter nav__item_negru"></button>
+            <button  onclick="reset(event);" data-filter="galben" class="nav__item filter nav__item_galben"></button>
+        </nav>
+        
+    </div>   
+    
+
+
+    <script src='http://code.jquery.com/jquery-2.1.1.min.js' type='text/javascript'></script>
+    <script src='jquery.eraser.js' type='text/javascript'></script>
+    <script src="js.js" ></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
